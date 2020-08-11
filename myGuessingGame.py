@@ -8,15 +8,16 @@ number_of_guesses= 0
 print ("What is your name?")
 userName= input()
 print ("Hello " + userName + " I have picked a random number between 1 and 20.  Lets see if you can guess it" )
-userGuess=int(input())
+# userGuess=int(input())
 while number_of_guesses <5:
+    userGuess=int(input())    
     if secretNum < userGuess:
         print ("Your guess is too high. Try again")
         number_of_guesses=number_of_guesses+1
-        if secretNum > userGuess:
-            print ("Your guess is too low. Try again")
+    if secretNum > userGuess:
+        print ("Your guess is too low. Try again")
         number_of_guesses=number_of_guesses+1    
     if userGuess==secretNum:
         print("Congratulations! You got it!")
-           
+        break   
         
