@@ -7,7 +7,7 @@ number_of_guesses= 0
 # User interaction, including input and guess prompt
 print ("What is your name?")
 userName= input()
-print ("Hello " + userName + " I have picked a random number between 1 and 20.  Lets see if you can guess it" )
+print ("Hello, " + userName + ", I have picked a random number between 1 and 20.  Lets see if you can guess it" )
 # While loop cycles user guesses and prompts user to try again if their guess is higher or lower than secretNum.
 while number_of_guesses <5:
     userGuess=int(input())    
@@ -33,6 +33,6 @@ while number_of_guesses <5:
 # Response if user fails to guess correctly in 5 tries:         
 if number_of_guesses >4:
     correctNum= str(secretNum)
-    print ("I'm sorry " + userName + " but you failed to guess the number in 5 tries.  The correct number was " + correctNum + ".")
+    print ("I'm sorry, " + userName + ", but you failed to guess the number in 5 tries.  The correct number was " + correctNum + ".")
 # if userGuess > 20:
 #     print ("Please choose a number between 1 and 20")   
