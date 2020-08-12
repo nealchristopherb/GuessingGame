@@ -1,5 +1,5 @@
 # Homework Assignment: myGuessingGame.py
-![]https://github.com/nealchristopherb/GuessingGame/blob/master/1_Km98PgzRp9yRYfVZeSzwzQ.png
+
 ## Goal: 
     To create a guessing game using Python that generates a random number and invites the user to try and guess it.
 
