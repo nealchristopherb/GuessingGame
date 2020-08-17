@@ -31,4 +31,6 @@ Next the file tracks the number of guesses by the user and reports them to the u
 
     "Congratulations! You guessed it in 1 tries!"
 
-Lastly, if the user fail to guess correctly and the number_of_guesses variable reaches 4, gameplay ends and the number is revealed.      
+Lastly, if the user fail to guess correctly and the number_of_guesses variable reaches 4, gameplay ends and the number is revealed.  
+
+![](https://github.com/nealchristopherb/GuessingGame/blob/master/guessingGame.gif)
